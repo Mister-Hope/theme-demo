@@ -28,7 +28,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "cddb94d7bf61abf78b491d5034706030"
+    "revision": "5cbadc39738eaaf77b57271c8b973983"
   },
   {
     "url": "assets/css/0.styles.091adbf9.css",
@@ -99,8 +99,8 @@ self.__precacheManifest = [
     "revision": "6e385423a4fae43955817c25e62a1929"
   },
   {
-    "url": "assets/js/app.c1b75420.js",
-    "revision": "86cd5591a9225cf6d996f83eeb7c6c0b"
+    "url": "assets/js/app.0068ba16.js",
+    "revision": "d3713bd2360d7c9c7961c7022cbe5626"
   },
   {
     "url": "assets/js/layout-Layout.1aad168e.js",
@@ -172,83 +172,83 @@ self.__precacheManifest = [
   },
   {
     "url": "component/disable.html",
-    "revision": "2566f6b94bdb098e5be9cc3c33723a7e"
+    "revision": "284a8beb6d37fa5ad365aee22977d7ec"
   },
   {
     "url": "component/footer/default.html",
-    "revision": "19294d86fae7673ac42da028162ad203"
+    "revision": "69517d830dcfdc03933f9896d5ae77c8"
   },
   {
     "url": "component/footer/diy.html",
-    "revision": "7a151e06df19cf44a2663103a336f5fc"
+    "revision": "060456674cc8f60ec237ca807826746a"
   },
   {
     "url": "component/footer/index.html",
-    "revision": "a7e787fa33164a49d4086821b9811e8b"
+    "revision": "ea24f0b8d8522f0707d1620a1dc5ee9d"
   },
   {
     "url": "component/footer/link.html",
-    "revision": "48a0095804f74bb6d1ca48f5d1156532"
+    "revision": "e2244b51c37021a7b6bf38ef8c98bcde"
   },
   {
     "url": "component/footer/outlink.html",
-    "revision": "cc0ecac98ca249302631856521cf03d6"
+    "revision": "dabac7f7babff4131764a00527156fb4"
   },
   {
     "url": "component/footer/text.html",
-    "revision": "224330777f282c8892359ded9571df8f"
+    "revision": "fd6388854f1b571a4f48739f2b3184e1"
   },
   {
     "url": "component/index.html",
-    "revision": "11def73ee7492162e762c601d2da8562"
+    "revision": "72c0aab1917142242dc3acfee76a7740"
   },
   {
     "url": "component/pageInfo.html",
-    "revision": "a04cad5f1ff8bcee11bfe2ba726e41aa"
+    "revision": "62266ab2873b2765422324c58cd985f2"
   },
   {
     "url": "en/index.html",
-    "revision": "542245de268cf53a8827829a1694d252"
+    "revision": "cca2389acc1441f05a14996c79b72172"
   },
   {
     "url": "en/test/detail/markdown.html",
-    "revision": "f960a6a2ff6705f2c09ed10ee8189f64"
+    "revision": "584ad8f4a3b73420d9157d81f473c236"
   },
   {
     "url": "en/test/detail/page.html",
-    "revision": "80ac7ea7c11e61f9c9faa8574231af47"
+    "revision": "7fe52449f5d0b5e1abd0ad3757a24dfc"
   },
   {
     "url": "en/test/footer/default.html",
-    "revision": "54c2d2e4cdcfeb1a7ffd8c4aebd117fb"
+    "revision": "07b397b3f75957586f755cbeaeb366b6"
   },
   {
     "url": "en/test/footer/diy.html",
-    "revision": "afa3f459c465bb8f49043345c81711c6"
+    "revision": "00f279019949f4616c40f0c028d2ab5a"
   },
   {
     "url": "en/test/footer/index.html",
-    "revision": "5bb80de9560c09d6497147303a3e0a7d"
+    "revision": "0c4608ca44aff1d3c7d49d6d593f3a7d"
   },
   {
     "url": "en/test/footer/link.html",
-    "revision": "c30b28d43af5c57e114239aa32320001"
+    "revision": "a301a3f3597d66916f350d16f1af8d17"
   },
   {
     "url": "en/test/footer/outlink.html",
-    "revision": "49184066565a0596feb180caee972321"
+    "revision": "1f29a7f165a8ceebe6acbc44ef29ea00"
   },
   {
     "url": "en/test/footer/text.html",
-    "revision": "b5fe4de18d4614a9a9f90d086509f365"
+    "revision": "09d83bacc72b836115313c2487f3e5c8"
   },
   {
     "url": "en/test/index.html",
-    "revision": "4e40fc234fb95514e6955c968cac2681"
+    "revision": "d2bcade664d87455bd67d688763c5565"
   },
   {
     "url": "encrypt/index.html",
-    "revision": "99d101e4e5e97d6c440fc7181eee1fcc"
+    "revision": "10cef61fb34bde69af9e053c23adba07"
   },
   {
     "url": "img/icon/appleIcon152.png",
@@ -268,7 +268,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "486a36d8bf78b92b664a266859880054"
+    "revision": "7b013e827429838d5b72059682456726"
   },
   {
     "url": "logo.png",
@@ -280,11 +280,11 @@ self.__precacheManifest = [
   },
   {
     "url": "markdown.html",
-    "revision": "70d1f62de479cebd557daf4fb7002e63"
+    "revision": "6e12ea3b201c6b927c4b316b83073866"
   },
   {
     "url": "test/index.html",
-    "revision": "88bd57d365eed8e6df67bf9436eb03f7"
+    "revision": "63e0148b4fb3e1787bae354f2640a19c"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
