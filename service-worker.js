@@ -28,11 +28,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "39c4035a027b615a4c2645e82f6a9fb0"
+    "revision": "0499a51412d547165b7ca47252ef93af"
   },
   {
-    "url": "assets/css/0.styles.da6bc249.css",
-    "revision": "ea8df8c5412463ad821eae0b8ac2a1ff"
+    "url": "assets/css/0.styles.50db1a2c.css",
+    "revision": "2cb298fe6601019d5f50fa4189e13c22"
   },
   {
     "url": "assets/fonts/MathJax_AMS-Regular.07173fb7.woff",
@@ -87,168 +87,200 @@ self.__precacheManifest = [
     "revision": "72815766b08ca24d4d29ad1f5d4ecb45"
   },
   {
+    "url": "assets/img/homeImage.5ae9de9e.jpg",
+    "revision": "5ae9de9e15120d94e9892d0c15da9896"
+  },
+  {
     "url": "assets/img/search.83621669.svg",
     "revision": "83621669651b9a3d4bf64d1a670ad856"
   },
   {
-    "url": "assets/js/19.1a364ab4.js",
-    "revision": "93852b3ca42b93e941dd882eb07d6b60"
+    "url": "assets/js/23.75713e2a.js",
+    "revision": "c21d8598ea121322f7934c50e304ce26"
   },
   {
-    "url": "assets/js/20.dcf3a5f7.js",
-    "revision": "3be3aecad7cad39906f7270f4c06ab25"
+    "url": "assets/js/24.434e7506.js",
+    "revision": "34788e33236ffdf9ef0e0095c06b49a3"
   },
   {
-    "url": "assets/js/app.bb11b130.js",
-    "revision": "f44cf8cd1a3158ad345848263085cba7"
+    "url": "assets/js/app.c45788c6.js",
+    "revision": "1c94cb28b9c121f82db8a19e141f3147"
   },
   {
-    "url": "assets/js/layout-Layout.90d991ed.js",
-    "revision": "3855e77b9737da14774b910b2b70cdaf"
+    "url": "assets/js/layout-BlogEntry.18b3fe5d.js",
+    "revision": "c872b32bb7e6d64bc67d7bbaf88c633e"
   },
   {
-    "url": "assets/js/layout-NotFound.c1946639.js",
-    "revision": "bbb42d713a186079c4384cbe3419c8b3"
+    "url": "assets/js/layout-BlogEntry~layout-Layout.d0744dce.js",
+    "revision": "74a564d55ee4e02a4e168bdd6c68f933"
   },
   {
-    "url": "assets/js/page-Home.1d6a8720.js",
-    "revision": "d8ef624cbe4e291407ecee5681e85947"
+    "url": "assets/js/layout-Category.42e9a6fb.js",
+    "revision": "88acff893f6ab04b77e27cc07cd1d9c5"
   },
   {
-    "url": "assets/js/page-Markdown 增强.561ddc04.js",
-    "revision": "686a4e8ca348ccfd917a1fef1a19701c"
+    "url": "assets/js/layout-Layout.38714e08.js",
+    "revision": "94d3961cb7b32f00fa51f3fdf637ea77"
   },
   {
-    "url": "assets/js/page-内部链接页脚.b5901820.js",
-    "revision": "770b74ab674c11723b1ecb2d5f33eccc"
+    "url": "assets/js/layout-NotFound.2ad053af.js",
+    "revision": "ad77ab7cc4791d99b99fe0c306a310e0"
   },
   {
-    "url": "assets/js/page-外部链接页脚.b6d6f0a2.js",
-    "revision": "0db2dc3f8fb8d2706efdfcf7af8a2221"
+    "url": "assets/js/layout-Tag.dc231364.js",
+    "revision": "e5be34dc19fac7dabea4decb3e0a876a"
   },
   {
-    "url": "assets/js/page-密码测试.87e83dbc.js",
-    "revision": "6932d9809435d51c8523768bd43babf7"
+    "url": "assets/js/page-Home.1368255d.js",
+    "revision": "f43ee9e0ec3dc2abc41a9c0288da3ef0"
   },
   {
-    "url": "assets/js/page-文字页脚.28d313dd.js",
-    "revision": "b0092b0b7ff2d6e24e121d67666c5b7c"
+    "url": "assets/js/page-Markdown 增强.a90d4881.js",
+    "revision": "961b78eee431308c2dd44747e46551a3"
   },
   {
-    "url": "assets/js/page-无页脚.a47fe766.js",
-    "revision": "21ea40f298c8d8e26e6ed14bcbe88415"
+    "url": "assets/js/page-内部链接页脚.e41c0e47.js",
+    "revision": "a68515ddca0ff4c55c0f94053c6cd12b"
   },
   {
-    "url": "assets/js/page-组件测试.3666d5d7.js",
-    "revision": "37a8f52b595a9a162042c00e7e902e27"
+    "url": "assets/js/page-外部链接页脚.9ef3a937.js",
+    "revision": "4276594a9e4f4f6702d40f26812f6b52"
   },
   {
-    "url": "assets/js/page-组件禁用.61b34f54.js",
-    "revision": "8989ea12bee0dd77661b16ac20e46820"
+    "url": "assets/js/page-密码测试.a8f09680.js",
+    "revision": "48ff7216758764b67511014cfbd17cd7"
   },
   {
-    "url": "assets/js/page-自定义页脚.a1be666b.js",
-    "revision": "6605601cecc40d7bfec940d7e7028303"
+    "url": "assets/js/page-文字页脚.92c43ca8.js",
+    "revision": "7b88b5279fe302857a133b218b8600fb"
   },
   {
-    "url": "assets/js/page-页面信息.b71639fb.js",
-    "revision": "7d20b908a542a16311ca9717bc07dab3"
+    "url": "assets/js/page-无页脚.c0bfb236.js",
+    "revision": "53e0a11b2f013f29894229db229a89f4"
   },
   {
-    "url": "assets/js/page-页面布局.3875de54.js",
-    "revision": "89bddbca209b88a3ed1547a89546e4b8"
+    "url": "assets/js/page-组件测试.633d6d13.js",
+    "revision": "7b71909f09a84b4daa2e4aa95f0fe96d"
   },
   {
-    "url": "assets/js/page-页面配置.93f04029.js",
-    "revision": "55a35ef888c6757df90e15a1f6929701"
+    "url": "assets/js/page-组件禁用.32b39182.js",
+    "revision": "6612473f4217d02fbdbf55b66fe6808d"
   },
   {
-    "url": "assets/js/page-默认页脚.e755975e.js",
-    "revision": "06121163e655e53dec29a29c706d7141"
+    "url": "assets/js/page-自定义页脚.ef01963a.js",
+    "revision": "cd3892b343c43a99e7ac4051b95579dd"
   },
   {
-    "url": "assets/js/vendors~layout-Layout.99b49987.js",
-    "revision": "4bb2fee30a68b60cac42a8dd99a9ba28"
+    "url": "assets/js/page-页面信息.0f3363fd.js",
+    "revision": "deef7d506b5b0db8d970838a0e9744d1"
+  },
+  {
+    "url": "assets/js/page-页面布局.9a3e19de.js",
+    "revision": "389ab71cac85aad26d4ea69fa4f639e0"
+  },
+  {
+    "url": "assets/js/page-页面配置.595e80cd.js",
+    "revision": "c0ea94f4d389010b2762a756e3b338d5"
+  },
+  {
+    "url": "assets/js/page-默认页脚.a70738b6.js",
+    "revision": "a1cc139f673ab264a92df5a6fc1c668a"
+  },
+  {
+    "url": "assets/js/vendors~layout-BlogEntry~layout-Layout.dd7c53bf.js",
+    "revision": "0f4ca7e772943cca0b9b4f96f60c4e02"
+  },
+  {
+    "url": "category/component/index.html",
+    "revision": "c53dd74578a3be1b5f733a6fe8b64680"
+  },
+  {
+    "url": "category/index.html",
+    "revision": "de4f03570e18fdcfb379cb86fc079436"
+  },
+  {
+    "url": "category/layout/index.html",
+    "revision": "315e30aee7efede1211f30573ad4f9b1"
   },
   {
     "url": "component/disable.html",
-    "revision": "42e0bf7369243a843f2f36025434a3eb"
+    "revision": "7bbc0f5efe151e5d874a6872bd76402d"
   },
   {
     "url": "component/footer/default.html",
-    "revision": "f40da4eff7c50d976340a53f52eaabef"
+    "revision": "9ab5fc94edce432a7dc5e1df6c5a6fad"
   },
   {
     "url": "component/footer/diy.html",
-    "revision": "e71112c4140765f6fad954779f0f1563"
+    "revision": "bbaf12b84adc196175cafac6ccf50658"
   },
   {
     "url": "component/footer/index.html",
-    "revision": "119c537b6bd330556f55eb362ec7fd86"
+    "revision": "540732dc2a46b4e6860a1821aab45b46"
   },
   {
     "url": "component/footer/link.html",
-    "revision": "a4b72c829aa92648745a72e720822e36"
+    "revision": "a645cec917a0d7f784eed3c917aff6cf"
   },
   {
     "url": "component/footer/outlink.html",
-    "revision": "237541459c39cca33f54a93ed88b6a73"
+    "revision": "23ec4075dc83febb5fe4d73d9b406d47"
   },
   {
     "url": "component/footer/text.html",
-    "revision": "0680bfcc0732d459b66965cbd91ba6fa"
+    "revision": "ce2dabc62d6472b5b2fc7c99c51f1db2"
   },
   {
     "url": "component/index.html",
-    "revision": "92ece402c40c9d9998d39c57b09c5af3"
+    "revision": "d9ebf1685fd1053088dcc36ba4103fbb"
   },
   {
     "url": "component/pageInfo.html",
-    "revision": "4907b153f3ff9bd929561b0999ae7797"
+    "revision": "e94c2d37e2d3096bbfb91d3d4cbdf7aa"
   },
   {
     "url": "en/index.html",
-    "revision": "56871b863a498c85c46ff26b3397c73e"
+    "revision": "4bd25c654e0b6c2b83689c11ec42b133"
   },
   {
     "url": "en/test/detail/markdown.html",
-    "revision": "a2fd64a5a7e26930165b185a075f7a9c"
+    "revision": "41249bfe2eb1e258219293accbb33e1c"
   },
   {
     "url": "en/test/detail/page.html",
-    "revision": "bb073450654df7707c5a31f103a80bd4"
+    "revision": "da4ac08e3b8b56894da39b615c3211f9"
   },
   {
     "url": "en/test/footer/default.html",
-    "revision": "52ac324e86aeb8ee2c2790bdedb78efa"
+    "revision": "f3e008d4d008756c9b15c274daeb07c4"
   },
   {
     "url": "en/test/footer/diy.html",
-    "revision": "fe6d16018840481484a53eeb2504fbe6"
+    "revision": "5283e1d05eaeb083b702ba955faf28ed"
   },
   {
     "url": "en/test/footer/index.html",
-    "revision": "79cd1ae463e32549425cb3e34cfe15f8"
+    "revision": "9b53ae63602244635dd6ce90951a7144"
   },
   {
     "url": "en/test/footer/link.html",
-    "revision": "3bfcda2fb8237c37e2744c24cd9e0f90"
+    "revision": "349ce524914aee26406199532794fabe"
   },
   {
     "url": "en/test/footer/outlink.html",
-    "revision": "05b9430424f31a8b778e36f813e7fc1c"
+    "revision": "54e7f394bcea23a5a3ae4c8409b160f6"
   },
   {
     "url": "en/test/footer/text.html",
-    "revision": "464a60777a40f1fe30fe03638c26086c"
+    "revision": "9f51be4172a01d12964621139bcc5a07"
   },
   {
     "url": "en/test/index.html",
-    "revision": "6647c4536536609377810fa31087d3e1"
+    "revision": "f245366f78cbd899a09bd9ef11908daf"
   },
   {
     "url": "encrypt/index.html",
-    "revision": "ffe19f6c2898e7e04eadc336ef4513d2"
+    "revision": "8ea0810237e5fe5064edb9ef9a715a6f"
   },
   {
     "url": "img/icon/appleIcon152.png",
@@ -268,7 +300,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "9eb12f2aad47c7a4beded0ed7f5821ee"
+    "revision": "d8d859705b494ebd1a3eebc957c93ca7"
   },
   {
     "url": "logo.png",
@@ -280,11 +312,27 @@ self.__precacheManifest = [
   },
   {
     "url": "markdown.html",
-    "revision": "e019e973274e94c858a3728358ea68d3"
+    "revision": "35b1684641d1de0978d1a617b2e730a6"
+  },
+  {
+    "url": "tag/footer/index.html",
+    "revision": "858ede1a345205989e9f11d4febdb131"
+  },
+  {
+    "url": "tag/index.html",
+    "revision": "4a18d17603de765f440f62a1ac8c79d5"
+  },
+  {
+    "url": "tag/layout/index.html",
+    "revision": "80ecc11c48deafb6d977b880907092f8"
+  },
+  {
+    "url": "tag/markdown/index.html",
+    "revision": "fddee0ac7fa4fa39fe8ee9ce7fa36a66"
   },
   {
     "url": "test/index.html",
-    "revision": "84cdb921f1e02a95d69e596101891838"
+    "revision": "6ffe0e49e17d272344308431e7820f7e"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
