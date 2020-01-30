@@ -1,5 +1,265 @@
-if(!self.define){const e=async e=>{if("require"!==e&&(e+=".js"),!a[e]&&(await new Promise(async s=>{if("document"in self){const a=document.createElement("script");a.src=e,document.head.appendChild(a),a.onload=s}else importScripts(e),s()}),!a[e]))throw new Error(`Module ${e} didn’t register its module`);return a[e]},s=async(s,a)=>{const i=await Promise.all(s.map(e));a(1===i.length?i[0]:i)};s.toUrl=e=>`./${e}`;const a={require:Promise.resolve(s)};self.define=(s,i,r)=>{a[s]||(a[s]=new Promise(async a=>{let o={};const d={uri:location.origin+s.slice(1)},f=await Promise.all(i.map(s=>"exports"===s?o:"module"===s?d:e(s))),t=r(...f);o.default||(o.default=t),a(o)}))}}define("./service-worker.js",["./workbox-7c50a1e6"],(function(e){"use strict";self.addEventListener("message",e=>{e.data&&"SKIP_WAITING"===e.data.type&&self.skipWaiting()}),e.precacheAndRoute([{url:"404.html",revision:"196dc7b8f33b5fd6b537c85c46ae1b54"},{url:"assets/css/0.styles.e2fd21cf.css",revision:"e23d49479de60c8167aa6722af103b46"},{url:"assets/fonts/MathJax_AMS-Regular.07173fb7.woff",revision:"07173fb77d2ee655811499d40c8388e7"},{url:"assets/fonts/MathJax_Fraktur-Bold.bc421258.woff",revision:"bc42125861bd5bfc8686deeb612dcbb3"},{url:"assets/fonts/MathJax_Fraktur-Regular.b80e08d5.woff",revision:"b80e08d5a79acbd1fafb1ca6f3515664"},{url:"assets/fonts/MathJax_Main-Bold.c9423d5d.woff",revision:"c9423d5dc9d82a38ca215f74e9cdd9f2"},{url:"assets/fonts/MathJax_Main-Italic.7e83626b.woff",revision:"7e83626ba8bf2d20dc41565f1e6d0afc"},{url:"assets/fonts/MathJax_Main-Regular.9995de47.woff",revision:"9995de4787f908d8237dba7007f6c3fe"},{url:"assets/fonts/MathJax_Math-BoldItalic.77dbcee3.woff",revision:"77dbcee3c3d9a82a0c04a4ae7992b895"},{url:"assets/fonts/MathJax_Math-Italic.5589d1a8.woff",revision:"5589d1a8fc62be6613020ef2fa13e410"},{url:"assets/fonts/MathJax_SansSerif-Bold.07281897.woff",revision:"07281897a98a61c3733e1670f82a9fd5"},{url:"assets/fonts/MathJax_SansSerif-Italic.3d580bd5.woff",revision:"3d580bd561716bfb1f0b4fdd7063a802"},{url:"assets/fonts/MathJax_SansSerif-Regular.bc3af04f.woff",revision:"bc3af04f9a671fcabd6498042c57478f"},{url:"assets/fonts/MathJax_Script-Regular.4c74e33b.woff",revision:"4c74e33b0feb1fdbda49403a5e7ed604"},{url:"assets/fonts/MathJax_Typewriter-Regular.72815766.woff",revision:"72815766b08ca24d4d29ad1f5d4ecb45"},{url:"assets/img/homeImage.5ae9de9e.jpg",revision:"5ae9de9e15120d94e9892d0c15da9896"},{url:"assets/img/search.83621669.svg",revision:"83621669651b9a3d4bf64d1a670ad856"},{url:"assets/js/23.76445128.js",revision:"90c51bea899116de1a63e6d6e9a246b7"},{url:"assets/js/24.5b09acc2.js",revision:"ac498c36706756302e8a8e4a1692db9d"},{url:"assets/js/app.0ff417d9.js",revision:"954f5309ae889ab2656ce3493f27ce07"},{url:"assets/js/layout-BlogEntry.16ffa9bf.js",revision:"214d2ec1ea7a9df23bd91e80dff0a195"},{url:"assets/js/layout-BlogEntry~layout-Layout.d3cc4791.js",revision:"ee9c4a00b8477b090bec6b0736b33112"},{url:"assets/js/layout-Category.cd2e1e48.js",revision:"2ae64ac811c9a3dade2d110a583fa10f"},{url:"assets/js/layout-Layout.efd6252a.js",revision:"5140d16bca721b88095de0a30360bee6"},{url:"assets/js/layout-NotFound.55f987b2.js",revision:"4dda37e47b33806da63504e2830e935a"},{url:"assets/js/layout-Tag.53c694c2.js",revision:"039d8e3b8540a08d48455f01cd8e502d"},{url:"assets/js/page-Home.9f5e9717.js",revision:"612a95827a5f0151136221eb4508e9e5"},{url:"assets/js/page-Markdown 增强.4d1be13b.js",revision:"32a8ef9d9ef63f5035447bc8417db44e"},{url:"assets/js/page-内部链接页脚.65e52dc0.js",revision:"f517099af78035eb35f17d3b7aab5896"},{url:"assets/js/page-外部链接页脚.31c4617f.js",revision:"b71e1bab881c470eb0886380973129ae"},{url:"assets/js/page-密码测试.14274136.js",revision:"f4eec0ce83eabbadccbc5cc9a29356dc"},{url:"assets/js/page-文字页脚.823c0015.js",revision:"b87b0433f6e66e0214401f78252ac901"},{url:"assets/js/page-无页脚.e2871ea2.js",revision:"d6eb15e0819dad1cf13570104bde33ba"},{url:"assets/js/page-组件测试.ba5bf8c9.js",revision:"3a8acc717b5ec3fd914e750c2d6d52e8"},{url:"assets/js/page-组件禁用.269f370f.js",revision:"3e91249a8ad4589d758784d891a42db2"},{url:"assets/js/page-自定义页脚.78067d23.js",revision:"a87ed317f149e6bb740ea610dffaf342"},{url:"assets/js/page-页面信息.fb40500f.js",revision:"05bc384caf458d2bf441ec795073e307"},{url:"assets/js/page-页面布局.2dbe5300.js",revision:"7b5d73a4013d1cac2f9e9ca621d22407"},{url:"assets/js/page-页面配置.25b3543d.js",revision:"72a527f99b00640be510eb05d7d3d1c0"},{url:"assets/js/page-默认页脚.3996c016.js",revision:"1bc21f7251c79e8eff702697dba0cb8b"},{url:"assets/js/vendors~layout-BlogEntry~layout-Layout.1a6713c9.js",revision:"aae53d51286925941926796ff7c35143"},{url:"category/component/index.html",revision:"920fb3a25f33079a81d08066140167f1"},{url:"category/index.html",revision:"a76df396b108b0c5b6068522d1123bb3"},{url:"category/layout/index.html",revision:"05a48df0656c1d9c26aba0eda09baa1b"},{url:"component/disable.html",revision:"6b836245474658b701cdee7f890f442f"},{url:"component/footer/default.html",revision:"f8e7f2e636a9838d6776e7403189bb39"},{url:"component/footer/diy.html",revision:"c4fd827f046627198d82ebb834013325"},{url:"component/footer/index.html",revision:"eb5b3ab49f90f65fbf68ebd5323986ab"},{url:"component/footer/link.html",revision:"52ace6d0f65e70c779c61015c007e729"},{url:"component/footer/outlink.html",revision:"70e8f994328de5ed8b7f36f46cc4678a"},{url:"component/footer/text.html",revision:"030ba92a14cb48c53136cee6d9e697eb"},{url:"component/index.html",revision:"98b923434b4ec2d4c8085ebdca60ed54"},{url:"component/pageInfo.html",revision:"2f0315a99dbe1d7f47276db2e2b06e0a"},{url:"en/index.html",revision:"61e896dee406ad37776e4a4443712afe"},{url:"en/test/detail/markdown.html",revision:"2d2e06a588526af5903674f68d8a9ad4"},{url:"en/test/detail/page.html",revision:"8f377751f1f56a0e144df48ad476eea7"},{url:"en/test/footer/default.html",revision:"772d009efb7ad34521e3c89b120ccf11"},{url:"en/test/footer/diy.html",revision:"8c3995d5a5cc51ce7647b26608f07517"},{url:"en/test/footer/index.html",revision:"a698108776ff9e779e118ff24e87c0ad"},{url:"en/test/footer/link.html",revision:"5f6c0f37793b760b5badfcaafb1200ce"},{url:"en/test/footer/outlink.html",revision:"3bbc96245a64675a20bf03a8982b6c55"},{url:"en/test/footer/text.html",revision:"93da6494994c267599297e9e379076ef"},{url:"en/test/index.html",revision:"631b115bd583e1dd1f4eb3b3678dd1ef"},{url:"encrypt/index.html",revision:"271273c99d7d7233f2512a31f2ec7a24"},{url:"img/icon/appleIcon152.png",revision:"9172ed03ed0e66ca085720b7c02fcccc"},{url:"img/icon/chrome192.png",revision:"581c452b65c71f36375193f75bbb7b8c"},{url:"img/icon/chrome512.png",revision:"78af354a94a00054caa93bdba2560bce"},{url:"img/icon/msIcon144.png",revision:"2200b78e72efdcd597b384cf62947c1a"},{url:"index.html",revision:"1be2d2a3112c28b10e5a63052908cb42"},{url:"logo.png",revision:"13417285202b91bf6571ccef63c17039"},{url:"logo.svg",revision:"2ff99a4865a6eceeaf3d949e479c7990"},{url:"markdown.html",revision:"0b533c43601390aa1a84fd7026297ed6"},{url:"tag/footer/index.html",revision:"beb1b72fdd4b509c7f166cd5c822007d"},{url:"tag/index.html",revision:"cec2f25713cb5c24d59511dce56d53d0"},{url:"tag/layout/index.html",revision:"d6aea1aadb0dc31acd31715b7bcce982"},{url:"tag/markdown/index.html",revision:"386154612ac69f6cf752733c7bed8353"},{url:"test/index.html",revision:"923ef769699dbeff73150bd8d24d80f3"}],{})}));
-//# sourceMappingURL=service-worker.js.map
+/**
+ * Welcome to your Workbox-powered service worker!
+ *
+ * You'll need to register this file in your web app and you should
+ * disable HTTP caching for this file too.
+ * See https://goo.gl/nhQhGp
+ *
+ * The rest of the code is auto-generated. Please don't update this file
+ * directly; instead, make changes to your Workbox build configuration
+ * and re-run your build process.
+ * See https://goo.gl/2aRDsh
+ */
+
+importScripts("workbox-v4.3.1/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "workbox-v4.3.1"});
+
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
+});
+
+/**
+ * The workboxSW.precacheAndRoute() method efficiently caches and responds to
+ * requests for URLs in the manifest.
+ * See https://goo.gl/S9QRab
+ */
+self.__precacheManifest = [
+  {
+    "url": "404.html",
+    "revision": "eec1daff0e3dbafd567b42011831984d"
+  },
+  {
+    "url": "assets/css/0.styles.f114ea9f.css",
+    "revision": "717e37df6ab76b3af34d75c137bc8e86"
+  },
+  {
+    "url": "assets/fonts/MathJax_AMS-Regular.07173fb7.woff",
+    "revision": "07173fb77d2ee655811499d40c8388e7"
+  },
+  {
+    "url": "assets/fonts/MathJax_Fraktur-Bold.bc421258.woff",
+    "revision": "bc42125861bd5bfc8686deeb612dcbb3"
+  },
+  {
+    "url": "assets/fonts/MathJax_Fraktur-Regular.b80e08d5.woff",
+    "revision": "b80e08d5a79acbd1fafb1ca6f3515664"
+  },
+  {
+    "url": "assets/fonts/MathJax_Main-Bold.c9423d5d.woff",
+    "revision": "c9423d5dc9d82a38ca215f74e9cdd9f2"
+  },
+  {
+    "url": "assets/fonts/MathJax_Main-Italic.7e83626b.woff",
+    "revision": "7e83626ba8bf2d20dc41565f1e6d0afc"
+  },
+  {
+    "url": "assets/fonts/MathJax_Main-Regular.9995de47.woff",
+    "revision": "9995de4787f908d8237dba7007f6c3fe"
+  },
+  {
+    "url": "assets/fonts/MathJax_Math-BoldItalic.77dbcee3.woff",
+    "revision": "77dbcee3c3d9a82a0c04a4ae7992b895"
+  },
+  {
+    "url": "assets/fonts/MathJax_Math-Italic.5589d1a8.woff",
+    "revision": "5589d1a8fc62be6613020ef2fa13e410"
+  },
+  {
+    "url": "assets/fonts/MathJax_SansSerif-Bold.07281897.woff",
+    "revision": "07281897a98a61c3733e1670f82a9fd5"
+  },
+  {
+    "url": "assets/fonts/MathJax_SansSerif-Italic.3d580bd5.woff",
+    "revision": "3d580bd561716bfb1f0b4fdd7063a802"
+  },
+  {
+    "url": "assets/fonts/MathJax_SansSerif-Regular.bc3af04f.woff",
+    "revision": "bc3af04f9a671fcabd6498042c57478f"
+  },
+  {
+    "url": "assets/fonts/MathJax_Script-Regular.4c74e33b.woff",
+    "revision": "4c74e33b0feb1fdbda49403a5e7ed604"
+  },
+  {
+    "url": "assets/fonts/MathJax_Typewriter-Regular.72815766.woff",
+    "revision": "72815766b08ca24d4d29ad1f5d4ecb45"
+  },
+  {
+    "url": "assets/img/search.83621669.svg",
+    "revision": "83621669651b9a3d4bf64d1a670ad856"
+  },
+  {
+    "url": "assets/js/15.c995660a.js",
+    "revision": "423b1edcd5ac4906d91b27360cede0d5"
+  },
+  {
+    "url": "assets/js/16.c0472250.js",
+    "revision": "459369102676f8149fb0d5e17f3a161b"
+  },
+  {
+    "url": "assets/js/app.4cebd542.js",
+    "revision": "22e043234bec9680487c574b7e80d0ee"
+  },
+  {
+    "url": "assets/js/layout-Layout.f8ad13b9.js",
+    "revision": "1465b1122d63286c37f7fdaca571a629"
+  },
+  {
+    "url": "assets/js/layout-NotFound.00d9fe1e.js",
+    "revision": "baef031cb11d7aa3769688fedc2f7f11"
+  },
+  {
+    "url": "assets/js/page-Home.d1c2ee34.js",
+    "revision": "e0ebe23e05e64b36f07c6cb3d6c3bc1b"
+  },
+  {
+    "url": "assets/js/page-Markdown 增强.1ec65b8a.js",
+    "revision": "bf0cbeb5aa4a34cb215d4974a12f53c0"
+  },
+  {
+    "url": "assets/js/page-内部链接页脚.fef331d9.js",
+    "revision": "fb273388f48e6c69a570a251136a3f0d"
+  },
+  {
+    "url": "assets/js/page-外部链接页脚.4253f4db.js",
+    "revision": "b9edc0b253633c912a0939c5898f8d86"
+  },
+  {
+    "url": "assets/js/page-文字页脚.8d13bbcd.js",
+    "revision": "8142528de446e9708307c4521140fcac"
+  },
+  {
+    "url": "assets/js/page-无页脚.875b140f.js",
+    "revision": "9a3c5a9ef0d732c444adad795eb4acb7"
+  },
+  {
+    "url": "assets/js/page-自定义页脚.931aa240.js",
+    "revision": "f5ff021683e4fa0ab32b406a19f9d261"
+  },
+  {
+    "url": "assets/js/page-页面布局.0f5c9c87.js",
+    "revision": "2eb1cfc901d6ad9a04383078be893831"
+  },
+  {
+    "url": "assets/js/page-页面配置.d3b208bf.js",
+    "revision": "e26c7d2c5b4646bf0f76e6b83ad9f7cd"
+  },
+  {
+    "url": "assets/js/page-默认页脚.731ebb40.js",
+    "revision": "ccc8ab0061a4c2112242598da7a0bc41"
+  },
+  {
+    "url": "assets/js/vendors~layout-Layout.b0a848bd.js",
+    "revision": "e242c744c727d4bb4cbe1f0ae8ff9255"
+  },
+  {
+    "url": "en/index.html",
+    "revision": "798a403381c1481746f4441cabe2a693"
+  },
+  {
+    "url": "en/test/detail/markdown.html",
+    "revision": "590536866dfba115d4b0488653fd7655"
+  },
+  {
+    "url": "en/test/detail/page.html",
+    "revision": "d2938fcbbfb602445333a70f249d2115"
+  },
+  {
+    "url": "en/test/footer/default.html",
+    "revision": "c571e9b9090b19bfa6a5ec8e22ab0c05"
+  },
+  {
+    "url": "en/test/footer/diy.html",
+    "revision": "6a91e9b800a43aaf9912a63365301f93"
+  },
+  {
+    "url": "en/test/footer/index.html",
+    "revision": "82017aaa24cfb02f383e990e7f1d619d"
+  },
+  {
+    "url": "en/test/footer/link.html",
+    "revision": "9846fb99b53c06169fbf601ebb210eef"
+  },
+  {
+    "url": "en/test/footer/outlink.html",
+    "revision": "dc57e6e2804833158008c0c4cb546a5a"
+  },
+  {
+    "url": "en/test/footer/text.html",
+    "revision": "eb99d3af7a55fb06f474ddceddf968f8"
+  },
+  {
+    "url": "en/test/index.html",
+    "revision": "24890e5b266ce6b63db92f0b2cb7fcdf"
+  },
+  {
+    "url": "img/icon/appleIcon152.png",
+    "revision": "9172ed03ed0e66ca085720b7c02fcccc"
+  },
+  {
+    "url": "img/icon/chrome192.png",
+    "revision": "581c452b65c71f36375193f75bbb7b8c"
+  },
+  {
+    "url": "img/icon/chrome512.png",
+    "revision": "78af354a94a00054caa93bdba2560bce"
+  },
+  {
+    "url": "img/icon/msIcon144.png",
+    "revision": "2200b78e72efdcd597b384cf62947c1a"
+  },
+  {
+    "url": "index.html",
+    "revision": "e8e101f42c37e95fd57c6a946157c2b2"
+  },
+  {
+    "url": "logo.png",
+    "revision": "13417285202b91bf6571ccef63c17039"
+  },
+  {
+    "url": "logo.svg",
+    "revision": "2ff99a4865a6eceeaf3d949e479c7990"
+  },
+  {
+    "url": "test/detail/markdown.html",
+    "revision": "a1553947806f13547eb74184ad9f90c8"
+  },
+  {
+    "url": "test/detail/page.html",
+    "revision": "7fd691b006ea78a29cbb719eac42f16f"
+  },
+  {
+    "url": "test/footer/default.html",
+    "revision": "eca45bb827e3e9b61ece13c66cb2a8cf"
+  },
+  {
+    "url": "test/footer/diy.html",
+    "revision": "6754979b62217e4471d90282f0482a6c"
+  },
+  {
+    "url": "test/footer/index.html",
+    "revision": "6729bc6ea3caf42d6b0af776c4e5a76a"
+  },
+  {
+    "url": "test/footer/link.html",
+    "revision": "8b4a42a4682c5dadc7531062be9a571d"
+  },
+  {
+    "url": "test/footer/outlink.html",
+    "revision": "2dec70f38d45183940b095fbbe09905f"
+  },
+  {
+    "url": "test/footer/text.html",
+    "revision": "693b772924e9e05f3ceb0e9e9d7e4e71"
+  },
+  {
+    "url": "test/index.html",
+    "revision": "76337fd1432aad086a0615a3acdf8e14"
+  }
+].concat(self.__precacheManifest || []);
+workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 addEventListener('message', event => {
   const replyPort = event.ports[0];
   const message = event.data;
